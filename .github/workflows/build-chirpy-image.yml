@@ -1,7 +1,7 @@
 name: build chirpy image and push to dockerhub.
 
 on:
-  workflow_dispath
+  workflow_dispatch
 
 jobs:
   push_to_registry:
