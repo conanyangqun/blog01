@@ -4,4 +4,5 @@ WORKDIR /tmp
 
 ADD Gemfile /tmp
 
-RUN bundle install
+RUN bundle config set path.system true \
+    && bundle install
